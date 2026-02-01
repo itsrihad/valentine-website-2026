@@ -5,53 +5,54 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Sarah",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Vill du bli min valentine?💌
+        ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💌', '😚', '🌹', '💓'],  // Heart emojis
+        bears: ['🧸', '🦜']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Gillar du mig?",                                    // First interaction
+            yesBtn: "Ja",                                             // Text for "Yes" button
+            noBtn: "Nej",                                               // Text for "No" button
+            secretAnswer: "Jag gillar inte dig, jag är KÄR i dig! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Hur mycket är du kär i mig?",                          // For the love meter
+            startText: "Såhär mycket!",                                   // Text before the percentage
+            nextBtn: "Nästa💌"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Vill du bli min valentine den 14 feb och gå på bio med mig?🙈", // The big question!
+            yesBtn: "Ja!",                                             // Text for "Yes" button
+            noBtn: "Nej"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW!! Är du kär i mig SÅ MYCKET?? 😮🥰",  // Shows when they go past 5000%
+        high: "Till månen och tillbakaa! 🚀🌒",              // Shows when they go past 1000%
+        normal: "Till Mount Everest! 😀🏔️"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Yayy jag är den lyckligaste i helaaa världeeeennn! 🎉🎉💖💝💓",
+        message: "Hämta din present nu Sarah så får du en bamsekram (och bamsekyss) av mig när vi ses!",
+        emojis: "🎁💌🗽🩷💋❤️🦜💕"  // These will bounce around
     },
 
     // Color scheme for the website
